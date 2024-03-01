@@ -1,0 +1,21 @@
+main { 
+    height: 200px;
+    width: 500px;
+    display: grid;
+    grid-template-rows: auto auto auto; 
+    border: solid 1px #000000;
+ } 
+ .black { background-color: black; } 
+ .red { background-color: red; } 
+ .yellow { background-color: yellow; } 
+
+ .one-div { 
+    height: 200px;
+    width: 300px; 
+    background: linear-gradient(to 
+    bottom,
+          black 33.3%,
+          red 33.3% 66.6%,
+          yellow 66.6%); 
+       border: solid 1px #000000;
+     }
